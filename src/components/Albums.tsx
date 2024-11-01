@@ -6,7 +6,7 @@ const albums = [
     id: 1,
     title: "Up N' Coming",
     year: "2024",
-    cover: "Media/Up N' coming album cover.jpg",
+    cover: "icymax/Media/Up N' coming album cover.jpg",
     tracks: ["Sitawahi tense", "Action Night", "Kazana", "Don't stop"]
   },
   {
