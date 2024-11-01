@@ -6,7 +6,7 @@ const albums = [
     id: 1,
     title: "Up N' Coming",
     year: "2024",
-    cover: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80",
+    cover: "Lewisweru/icymax/Media/Up N' coming album cover.jpg",
     tracks: ["Sitawahi tense", "Action Night", "Kazana", "Don't stop"]
   },
   {
