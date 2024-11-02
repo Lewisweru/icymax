@@ -9,7 +9,7 @@ export function Contact() {
           <h2 className="text-3xl font-bold mb-4">Connect With Me</h2>
           <div className="flex justify-center space-x-6">
             <a
-              href="instagram.com/icymax_official"
+              href="https://www.instagram.com/icy_max_ke?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors group"
