@@ -4,19 +4,19 @@ import { Play, X } from 'lucide-react';
 const videos = [
   {
     id: 1,
-    title: "Neon Dreams - Official Music Video",
-    thumbnail: "https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?auto=format&fit=crop&q=80",
-    youtubeId: "dQw4w9WgXcQ"
+    title: "Kazana - Official Music Video",
+    thumbnail: "https://github.com/Lewisweru/icymax/raw/main/Media/KAZANA%20UTUBE%20THUMBNAIL.png",
+    youtubeId: "LpVU_o0Bmqp-4NDQ"
   },
   {
     id: 2,
-    title: "Live at Madison Square Garden",
-    thumbnail: "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?auto=format&fit=crop&q=80",
-    youtubeId: "9bZkp7q19f0"
+    title: "Action Night",
+    thumbnail: "https://github.com/Lewisweru/icymax/raw/main/Media/Actionnightcover.jpg",
+    youtubeId: "qBRUOCztPZ5ug55q"
   },
   {
     id: 3,
-    title: "Behind the Scenes - Album Making",
+    title: "Zozah",
     thumbnail: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80",
     youtubeId: "JGwWNGJdvx8"
   }
