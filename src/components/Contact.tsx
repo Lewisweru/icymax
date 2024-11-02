@@ -9,7 +9,7 @@ export function Contact() {
           <h2 className="text-3xl font-bold mb-4">Connect With Me</h2>
           <div className="flex justify-center space-x-6">
             <a
-              href="https://instagram.com"
+              href="instagram.com/icymax_official"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors group"
@@ -17,7 +17,7 @@ export function Contact() {
               <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="https://facebook.com"
+              href="facebook.com/maxwell.weru.7"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors group"
@@ -25,7 +25,7 @@ export function Contact() {
               <Facebook className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@IcyMax1"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors group"
@@ -33,7 +33,7 @@ export function Contact() {
               <Youtube className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/Icymax1"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors group"

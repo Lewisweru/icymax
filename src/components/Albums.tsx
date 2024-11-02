@@ -4,10 +4,10 @@ import { Play, Pause } from 'lucide-react';
 const albums = [
   {
     id: 1,
-    title: "Neon Dreams",
+    title: "Up N' Coming",
     year: "2024",
-    cover: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80",
-    tracks: ["Midnight City", "Electric Heart", "Starlight", "Cyber Love"]
+    cover: "https://github.com/Lewisweru/icymax/blob/main/Media/Up%20N'%20coming%20album%20cover.jpg",
+    tracks: ["Sitawahi tense", "Action Night", "Kazana", "Don't stop"]
   },
   {
     id: 2,
