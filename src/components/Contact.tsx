@@ -17,7 +17,7 @@ export function Contact() {
               <Instagram className="w-6 h-6 group-hover:scale-110 transition-transform" />
             </a>
             <a
-              href="facebook.com/maxwell.weru.7"
+              href="https://web.facebook.com/maxwell.weru.7"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors group"
