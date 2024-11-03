@@ -11,18 +11,18 @@ const albums = [
   },
   {
     id: 2,
-    title: "Digital Soul",
-    year: "2022",
-    cover: "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?auto=format&fit=crop&q=80",
-    tracks: ["Binary Code", "Virtual Reality", "Digital Dreams", "Future Past"]
+    title: "Taste of ice ",
+    year: "2021",
+    cover: "https://github.com/Lewisweru/icymax/raw/main/Media/tasteOfIcealbumcoverphoto.jpg",
+    tracks: ["Hustle", "My Prayer", "You're the type", "Kuflex","Freak on" , "Christmas loving"]
   },
-  {
+  /*{
     id: 3,
     title: "Quantum",
     year: "2020",
     cover: "https://images.unsplash.com/photo-1557672172-298e090bd0f1?auto=format&fit=crop&q=80",
     tracks: ["Time Machine", "Space Walk", "Nebula", "Event Horizon"]
-  }
+  }*/
 ];
 
 export function Albums() {
