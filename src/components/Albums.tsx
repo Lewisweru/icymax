@@ -19,7 +19,15 @@ const albums = [
     title: "Taste of ice ",
     year: "2021",
     cover: "https://github.com/Lewisweru/icymax/raw/main/Media/tasteOfIcealbumcoverphoto.jpg",
-    tracks: ["Hustle", "My Prayer", "You're the type", "Kuflex","Freak on" , "Christmas loving"]
+    tracks: [
+      { title: "Hustle", audio: "path/to/sitawahiTense.mp3" },
+      { title: "My Prayer", audio: "Media/actionNightAudio.mp3" },
+      { title: "You're the type", audio: "Media/kazanaAudio.mp3" },
+      { title: "Kuflex", audio: "path/to/dontStop.mp3" },
+      { title: "Freak on", audio: "path/to/dontStop.mp3" },
+      { title: "Christmas loving", audio: "path/to/dontStop.mp3" }
+      ]
+      /*"Hustle", "My Prayer", "You're the type", "Kuflex","Freak on" , "Christmas loving"]*/
   },
   /*{
     id: 3,
