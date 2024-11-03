@@ -7,7 +7,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: 'url(https://github.com/Lewisweru/icymax/raw/main/Media/WhatsApp%20Image%202023-11-12%20at%2022.05.47_8353918c%20(1)%20(1).jpg)',
+          backgroundImage: 'url(https://github.com/Lewisweru/icymax/raw/main/Media/KAZANA%20UTUBE%20THUMBNAIL.png)',
         }}
       >
         <div className="absolute inset-0 bg-black/60" />
