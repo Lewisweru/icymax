@@ -17,7 +17,7 @@ const videos = [
   {
     id: 3,
     title: "Zozah - Official Music Video",
-    thumbnail: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80",
+    thumbnail: "https://github.com/Lewisweru/icymax/raw/main/Media/ZOZAHCoverArt.jpg",
     youtubeId: "3DsgC05S3VY"
   }
 ];
