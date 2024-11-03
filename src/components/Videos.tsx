@@ -6,19 +6,19 @@ const videos = [
     id: 1,
     title: "Kazana - Official Music Video",
     thumbnail: "https://github.com/Lewisweru/icymax/raw/main/Media/KAZANA%20UTUBE%20THUMBNAIL.png",
-    youtubeId: "LpVU_o0Bmqp-4NDQ"
+    youtubeId: "klCZCBNGnLU"
   },
   {
     id: 2,
-    title: "Action Night",
+    title: "Action Night - Official Visualizer",
     thumbnail: "https://github.com/Lewisweru/icymax/raw/main/Media/Actionnightcover.jpg",
-    youtubeId: "qBRUOCztPZ5ug55q"
+    youtubeId: "RPJ5Jqlh6PQ"
   },
   {
     id: 3,
-    title: "Zozah",
+    title: "Zozah - Official Music Video",
     thumbnail: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80",
-    youtubeId: "JGwWNGJdvx8"
+    youtubeId: "3DsgC05S3VY"
   }
 ];
 
