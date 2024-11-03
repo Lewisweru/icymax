@@ -9,8 +9,8 @@ const albums = [
     cover: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/upNComingAlbumCover.jpg",
     tracks: [
        { title: "Sitawahi tense", audio: "path/to/sitawahiTense.mp3" },
-      { title: "Action Night", audio: "Media/actionNightAudio.mp3" },
-      { title: "Kazana", audio: "Media/kazanaAudio.mp3" },
+      { title: "Action Night", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/actionNightAudio.mp3" },
+      { title: "Kazana", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/kazanaAudio.mp3" },
       { title: "Don't stop", audio: "path/to/dontStop.mp3" }
     ]
   },
