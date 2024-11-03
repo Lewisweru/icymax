@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Play, Pause } from 'lucide-react';
 
 const albums = [
@@ -7,7 +7,12 @@ const albums = [
     title: "Up N' Coming",
     year: "2024",
     cover: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/upNComingAlbumCover.jpg",
-    tracks: ["Sitawahi tense", "Action Night", "Kazana", "Don't stop"]
+    tracks: [
+       { title: "Sitawahi tense", audio: "path/to/sitawahiTense.mp3" },
+      { title: "Action Night", audio: "Media/actionNightAudio.mp3" },
+      { title: "Kazana", audio: "Media/kazanaAudio.mp3" },
+      { title: "Don't stop", audio: "path/to/dontStop.mp3" }
+    ]
   },
   {
     id: 2,
@@ -25,9 +30,28 @@ const albums = [
   }*/
 ];
 
+
 export function Albums() {
   const [activeAlbum, setActiveAlbum] = useState(albums[0]);
+  const [currentTrack, setCurrentTrack] = useState<{ title: string; audio: string } | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  const handleTrackPlayPause = (track: { title: string; audio: string }) => {
+    if (currentTrack && currentTrack.title === track.title && isPlaying) {
+      // If the same track is already playing, pause it
+      audioRef.current?.pause();
+      setIsPlaying(false);
+    } else {
+      // If a different track is selected, change the audio source
+      setCurrentTrack(track);
+      setIsPlaying(true);
+      if (audioRef.current) {
+        audioRef.current.src = track.audio; // Set the new audio source
+        audioRef.current.play();
+      }
+    }
+  };
 
   return (
     <section id="albums" className="py-20 bg-gradient-to-b from-black to-purple-900">
@@ -52,19 +76,6 @@ export function Albums() {
                   <h3 className="text-xl font-semibold">{album.title}</h3>
                   <p className="text-white/60">{album.year}</p>
                 </div>
-                {activeAlbum.id === album.id && (
-                  <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        setIsPlaying(!isPlaying);
-                      }}
-                      className="p-3 bg-purple-600 rounded-full hover:bg-purple-700 transition-colors"
-                    >
-                      {isPlaying ? <Pause className="w-5 h-5" /> : <Play className="w-5 h-5" />}
-                    </button>
-                  </div>
-                )}
               </div>
             ))}
           </div>
@@ -80,12 +91,19 @@ export function Albums() {
               <ul className="space-y-4">
                 {activeAlbum.tracks.map((track, index) => (
                   <li
-                    key={track}
+                    key={track.title}
                     className="flex items-center justify-between p-3 rounded-lg hover:bg-white/5 transition-colors"
                   >
-                    <span className="text-white/80">{index + 1}. {track}</span>
-                    <button className="p-2 hover:bg-purple-600 rounded-full transition-colors">
-                      <Play className="w-4 h-4" />
+                    <span className="text-white/80">{index + 1}. {track.title}</span>
+                    <button
+                      onClick={() => handleTrackPlayPause(track)}
+                      className="p-2 hover:bg-purple-600 rounded-full transition-colors"
+                    >
+                      {currentTrack?.title === track.title && isPlaying ? (
+                        <Pause className="w-4 h-4" />
+                      ) : (
+                        <Play className="w-4 h-4" />
+                      )}
                     </button>
                   </li>
                 ))}
@@ -94,6 +112,7 @@ export function Albums() {
           </div>
         </div>
       </div>
+      <audio ref={audioRef} />
     </section>
   );
 }
