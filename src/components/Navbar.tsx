@@ -22,14 +22,14 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Music2 className="w-8 h-8 text-purple-500" />
-            <span className="text-xl font-bold">STELLAR</span>
+            <span className="text-xl font-bold">Icy Max</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-white/80 hover:text-white transition-colors">Home</a>
             <a href="#albums" className="text-white/80 hover:text-white transition-colors">Albums</a>
             <a href="#videos" className="text-white/80 hover:text-white transition-colors">Videos</a>
-            <a href="#tour" className="text-white/80 hover:text-white transition-colors">Tour</a>
+            {/* <a href="#tour" className="text-white/80 hover:text-white transition-colors">Tour</a> */}
             <a href="#contact" className="text-white/80 hover:text-white transition-colors">Contact</a>
           </div>
 
@@ -48,7 +48,7 @@ export function Navbar() {
             <a href="#home" className="block py-3 text-white/80 hover:text-white" onClick={() => setIsMenuOpen(false)}>Home</a>
             <a href="#albums" className="block py-3 text-white/80 hover:text-white" onClick={() => setIsMenuOpen(false)}>Albums</a>
             <a href="#videos" className="block py-3 text-white/80 hover:text-white" onClick={() => setIsMenuOpen(false)}>Videos</a>
-            <a href="#tour" className="block py-3 text-white/80 hover:text-white" onClick={() => setIsMenuOpen(false)}>Tour</a>
+            { /*<a href="#tour" className="block py-3 text-white/80 hover:text-white" onClick={() => setIsMenuOpen(false)}>Tour</a> */}
             <a href="#contact" className="block py-3 text-white/80 hover:text-white" onClick={() => setIsMenuOpen(false)}>Contact</a>
           </div>
         </div>

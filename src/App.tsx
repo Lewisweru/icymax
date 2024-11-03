@@ -3,7 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Albums } from './components/Albums';
 import { Videos } from './components/Videos';
-import { Tour } from './components/Tour';
+// import { Tour } from './components/Tour';
 import { Contact } from './components/Contact';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Hero />
       <Albums />
       <Videos />
-      <Tour />
+      {/*<Tour />*/}
       <Contact />
     </div>
   );
