@@ -25,7 +25,7 @@ const albums = [
       { title: "You're the type", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/youreTheTypeaudio.mp3" },
       { title: "Kuflex", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/kuflexAudio.mp3" },
       { title: "Freak on", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/freakOnaudio.mp3" },
-      { title: "Christmas loving", audio: "https://raw.usergithubusercontent.com/Lewisweru/icymax/main/Media/christmasLovingaudio.mp3" }
+      { title: "Christmas loving", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/christmasLovingaudio.mp3" }
       ]
       /*"Hustle", "My Prayer", "You're the type", "Kuflex","Freak on" , "Christmas loving"]*/
   },
