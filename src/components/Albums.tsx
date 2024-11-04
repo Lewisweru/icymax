@@ -8,10 +8,10 @@ const albums = [
     year: "2024",
     cover: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/upNComingAlbumCover.jpg",
     tracks: [
-       { title: "Sitawahi tense", audio: "path/to/sitawahiTense.mp3" },
+      { title: "Sitawahi tense", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/sitawahiTenseAudio.mp3" },
       { title: "Action Night", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/actionNightAudio.mp3" },
       { title: "Kazana", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/kazanaAudio.mp3" },
-      { title: "Don't stop", audio: "path/to/dontStop.mp3" }
+      { title: "Don't stop", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/dontStopAudio.mp3" }
     ]
   },
   {
@@ -20,12 +20,12 @@ const albums = [
     year: "2021",
     cover: "https://github.com/Lewisweru/icymax/raw/main/Media/tasteOfIcealbumcoverphoto.jpg",
     tracks: [
-      { title: "Hustle", audio: "path/to/sitawahiTense.mp3" },
-      { title: "My Prayer", audio: "Media/actionNightAudio.mp3" },
-      { title: "You're the type", audio: "Media/kazanaAudio.mp3" },
-      { title: "Kuflex", audio: "path/to/dontStop.mp3" },
-      { title: "Freak on", audio: "path/to/dontStop.mp3" },
-      { title: "Christmas loving", audio: "path/to/dontStop.mp3" }
+      { title: "Hustle", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/hustleAudio.mp3" },
+      { title: "My Prayer", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/myPrayeraudio.mp3" },
+      { title: "You're the type", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/youreTheTypeaudio.mp3" },
+      { title: "Kuflex", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/kuflexAudio.mp3" },
+      { title: "Freak on", audio: "https://raw.githubusercontent.com/Lewisweru/icymax/main/Media/freakOnaudio.mp3" },
+      { title: "Christmas loving", audio: "https://raw.usergithubusercontent.com/Lewisweru/icymax/main/Media/christmasLovingaudio.mp3" }
       ]
       /*"Hustle", "My Prayer", "You're the type", "Kuflex","Freak on" , "Christmas loving"]*/
   },
